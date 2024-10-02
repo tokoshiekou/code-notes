@@ -6,7 +6,7 @@
 
 安裝完 node，創建兩個目錄用來分別放置往後安裝其他庫生成的 .cmd 文件以及操作記錄 .log文件，按照文件約定分別命名為 `npm_global` 與 `npm_logs`。
 
-<img src="https://raw.githubusercontent.com/tokoshiekou/code-notes/refs/heads/main/Img/folder.png" alt="folder" height="280">
+<img src="https://raw.githubusercontent.com/tokoshiekou/code-notes/refs/heads/main/Img/folder.png" alt="folder" height="280" align="center">
 
 
 
