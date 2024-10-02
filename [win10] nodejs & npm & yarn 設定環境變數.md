@@ -6,7 +6,7 @@
 
 安裝完 node，創建兩個目錄用來分別放置往後安裝其他庫生成的 .cmd 文件以及操作記錄 .log文件，按照文件約定分別命名為 `npm_global` 與 `npm_logs`。
 
-<img src="[D:\github-project\code-notes\Img\folder.png](https://raw.githubusercontent.com/tokoshiekou/code-notes/refs/heads/main/Img/folder.png)" alt="folder" height="280">
+<img src="https://raw.githubusercontent.com/tokoshiekou/code-notes/refs/heads/main/Img/folder.png" alt="folder" height="280">
 
 
 
@@ -14,13 +14,13 @@
 
 在這裡，先看到用戶變數上半部分，把 `Path` 中映射到 Roaming/npm 選項修改為之前創建的 `npm_global` 目錄路徑，這將用來存放 NPM 或者 Yarn 安裝所生成的庫文件，妳可以選擇自己喜歡的地方放置。
 
-<img src="[D:\github-project\code-notes\Img\user-variables.png](https://raw.githubusercontent.com/tokoshiekou/code-notes/refs/heads/main/Img/user-variables.png)" alt="user-variables" height="400">
+<img src="https://raw.githubusercontent.com/tokoshiekou/code-notes/refs/heads/main/Img/user-variables.png" alt="user-variables" height="400">
 
 
 
 系統變數下半部分，為他創建一個變數 `NODE_HOME` 設定 value 為 `原路徑位置\npm_global\node_modules` ，這裡追加 `node_modules` 但實際在文件目錄中無需創建。在系統變數 `Path` 中，新增 node 所在的目錄位置以及填入 `NODE_HOME` 變數。（結果如下圖）
 
-<img src="[D:\github-project\code-notes\Img\system-variables.png](https://raw.githubusercontent.com/tokoshiekou/code-notes/refs/heads/main/Img/system-variables.png)" alt="system-variables" height="520">
+<img src="https://raw.githubusercontent.com/tokoshiekou/code-notes/refs/heads/main/Img/system-variables.png" alt="system-variables" height="520">
 
 
 
