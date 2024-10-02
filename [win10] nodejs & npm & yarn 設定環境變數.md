@@ -1,8 +1,8 @@
-### [win10] nodejs & npm & yarn 設定環境變數
+## [win10] nodejs & npm & yarn 設定環境變數
 
 本節點主要介紹在 win10 系統中如何設定環境變數為開發帶來更好的體驗。
 
-#### #NodeJs：
+### #NodeJs：
 
 安裝完 node，創建兩個目錄用來分別放置往後安裝其他庫生成的 .cmd 文件以及操作記錄 .log文件，按照文件約定分別命名為 `npm_global` 與 `npm_logs`。
 
@@ -28,7 +28,7 @@
 
 
 
-#### #NPM：
+### #NPM：
 
 node 默認首選 npm 作爲庫管理工具，爲了讓安裝的庫存儲在 `npm_global` 還需要在 npm 設定 config 變數。
 
@@ -39,7 +39,7 @@ npm config set cache "路徑\npm_logs"
 
 
 
-#### #Yarn：
+### #Yarn：
 
 如果妳喜歡使用 yarn 作爲個人庫管理工具，那也同樣可以做到。創建兩個目錄 `yarn_cache` 與 `yarn_global` 。
 
